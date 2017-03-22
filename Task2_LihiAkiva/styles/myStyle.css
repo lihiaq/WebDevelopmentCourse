@@ -1,0 +1,21 @@
+body 
+{
+    direction:rtl;
+}
+
+#row {
+    background-color:orange;
+    height:100px;
+    width:900px;
+}
+
+}
+
+.red {
+    background-color:red;
+    padding-left:100px;
+    margin-right:100px;
+   
+   
+}
+
