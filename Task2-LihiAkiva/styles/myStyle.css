@@ -48,6 +48,7 @@ h1 {
     font-size:40pt;
     display:inline-block;
     float:right;
+    background-color:white;
 }
 span {
     font-weight:bold;
