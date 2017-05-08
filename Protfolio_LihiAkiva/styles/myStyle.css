@@ -1,0 +1,305 @@
+/*עיצוב כללי לכל הדפים*/
+
+body {
+    direction: rtl;
+    font-family: 'Assistant', sans-serif;
+}
+
+#container {
+    width: 960px;
+    margin: 0 auto;
+}
+
+body {
+    background-image: url('../images/bgd.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+/*הגדרת רקעים לשאר הדפים*/
+#resumebg {
+    background-image: url('../images/bgd2.jpg');
+
+}
+
+#worksbg {
+    background-image: url('../images/bdg3.jpg');
+}
+
+#contactbg {
+    background-image: url('../images/bdg4.jpg');
+}
+
+
+/*תפריט ניווט*/
+nav.tabs ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+    nav.tabs ul li {
+        display: inline-block;
+    }
+
+        nav.tabs ul li a {
+            color: white;
+            text-decoration: none;
+            display: block;
+            width: 140px;
+            height: 30px;
+            text-align: center;
+            padding-top: 10px;
+            background-color: steelblue;
+        }
+
+            nav.tabs ul li a.selected {
+                background-color: white;
+                color: steelblue;
+            }
+
+            nav.tabs ul li a:hover {
+                background-color: white;
+                color: steelblue;
+            }
+
+            nav.tabs ul li a.selected:hover {
+                background-color: steelblue;
+                color: white;
+            }
+
+            nav.tabs ul li a:active {
+                background-color: steelblue;
+            }
+
+/*עיצוב הפוטר*/
+footer {
+    height: 50px;
+    background-color: white;
+    padding-top: 10px;
+    text-align: center;
+    font-size: 14pt;
+    opacity: 0.8;
+}
+
+#facebook {
+    padding-top: 10px;
+    width: 15px;
+    height: 15px;
+    background-repeat: no-repeat;
+}
+
+
+
+/*עיצוב עמוד הבית*/
+#about {
+    padding: 20px;
+    height: 356px;
+    color: steelblue;
+    opacity: 0.8;
+}
+
+.music {
+    float: left;
+}
+
+/*התלבטתי ובסוף החלטתי לא להגדיר שורה זו כ-אייץ' אחד אלא כ-פי כי שורה זו מופיעה רק בדף הראשי */
+.title {
+    font-size: 39pt;
+    margin-top: 250px;
+    margin-right: 115px;
+    text-align: center;
+    background-color: white;
+    width: 700px;
+    height: 60px;
+}
+
+.subtitle {
+    font-size: 20pt;
+    margin-top: 10px;
+    margin-right: 603px;
+    text-align: left;
+    background-color: white;
+    width: 212px;
+    height: 28px;
+}
+
+
+.bglocationindex {
+    font-size: 14pt;
+    color: white;
+    text-align: center;
+    background-color: steelblue;
+    opacity: 0.8;
+    width: 250px;
+    height: 22px;
+    padding-left: 20px;
+    background-image: url('../images/gps.png');
+    background-size: 6.5%;
+    background-repeat: no-repeat;
+    margin-top: 425px;
+    margin-right: 620px;
+    margin-bottom: 10px;
+}
+
+
+
+/*עיצוב  כללי דפים פנימי*/
+h1 {
+    font-size: 39pt;
+    color: white;
+    margin-top: 100px;
+    text-align: center;
+    background-color: steelblue;
+    opacity: 0.8;
+    width: 300px;
+    height: 60px;
+}
+
+
+h2 {
+    font-size: 25pt;
+    color: steelblue;
+    margin-top: 15px;
+    text-align: center;
+    background-color: white;
+    opacity: 0.9;
+    width: 220px;
+    height: 50px;
+}
+
+h3 {
+    font-size: 18pt;
+    color: steelblue;
+    padding-bottom: 10px;
+    font-weight: bold;
+}
+
+.bglocation {
+    font-size: 14pt;
+    color: white;
+    text-align: center;
+    background-color: steelblue;
+    opacity: 0.8;
+    width: 250px;
+    height: 22px;
+    padding-left: 20px;
+    background-image: url('../images/gps.png');
+    background-size: 6.5%;
+    background-repeat: no-repeat;
+    margin-top: 17px;
+    margin-right: 640px;
+    margin-bottom: 30px;
+}
+/*עיצוב דף קורות חיים*/
+.border {
+    height: 80px;
+    background-color: white;
+    margin-bottom: 20px;
+    width: 380px;
+    padding: 10px;
+    font-size: 15pt;
+    opacity: 0.9;
+}
+
+#edu {
+    display: inline-block;
+    width: 400px;
+    position: static;
+    margin-bottom: 50px;
+    margin-right: 40px;
+    margin-bottom: 70px;
+}
+
+#work {
+    display: inline-block;
+    width: 400px;
+    position: absolute;
+    margin-right: 50px;
+    margin-bottom: 50px;
+}
+
+
+
+/*עיצוב דף עבודות*/
+
+.worksborder, .worksborder2, .worksborder3 {
+    background-color: white;
+    opacity: 0.9;
+    margin-bottom: 30px;
+    padding: 15px;
+    font-size: 15pt;
+    line-height: 25px;
+}
+
+
+.worksborder {
+    width: 880px;
+}
+
+
+.worksborder2 {
+    width: 360px;
+    display: inline-block;
+    position: static;
+}
+
+.worksborder3 {
+    width: 410px;
+    padding-bottom: 40px;
+    display: inline-block;
+    position: absolute;
+    margin-right: 80px;
+}
+
+
+.worksborder a:hover, .worksborder2 a:hover, .worksborder3 a:hover {
+        opacity: 0.9;
+    }
+
+.workpic {
+    height: 315px;
+    padding-right: 30px;
+    padding-left: 30px;
+    padding-top: 30px;
+}
+
+/*דף צור קשר*/
+
+input[type=text], select, textarea {
+    width: 880px;
+    padding: 12px;
+    border: 1px solid #ccc;
+    margin-top: 6px;
+    margin-bottom: 16px;
+}
+
+input[type=submit] {
+    background-color: steelblue;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-right: 430px;
+}
+
+    input[type=submit]:hover {
+        background-color: white;
+        color: steelblue;
+    }
+
+.contactmeform {
+    background-color: #f2f2f2;
+    padding: 20px;
+}
+
+.infoborder {
+    height: 120px;
+    background-color: white;
+    margin-bottom: 20px;
+    width: 300px;
+    padding: 10px;
+    font-size: 15pt;
+    opacity: 0.9;
+}
