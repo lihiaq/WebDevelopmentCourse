@@ -1,4 +1,4 @@
-/*עיצוב כללי לכל הדפים*/
+/*ֳ²ֳ©ֳ¶ֳ¥ֳ¡ ֳ«ֳ¬ֳ¬ֳ© ֳ¬ֳ«ֳ¬ ֳ₪ֳ£ֳ´ֳ©ֳ­*/
 
 body {
     direction: rtl;
@@ -16,7 +16,7 @@ body {
     background-size: cover;
     background-attachment: fixed;
 }
-/*הגדרת רקעים לשאר הדפים*/
+/*ֳ₪ֳ¢ֳ£ֳ¸ֳ÷ ֳ¸ֳ·ֳ²ֳ©ֳ­ ֳ¬ֳ¹ֳ ֳ¸ ֳ₪ֳ£ֳ´ֳ©ֳ­*/
 #resumebg {
     background-image: url('../images/bgd2.jpg');
 
@@ -31,7 +31,7 @@ body {
 }
 
 
-/*תפריט ניווט*/
+/*ֳ÷ֳ´ֳ¸ֳ©ֳ¨ ֳ°ֳ©ֳ¥ֳ¥ֳ¨*/
 nav.tabs ul {
     padding: 0;
     margin: 0;
@@ -72,7 +72,7 @@ nav.tabs ul {
                 background-color: steelblue;
             }
 
-/*עיצוב הפוטר*/
+/*ֳ²ֳ©ֳ¶ֳ¥ֳ¡ ֳ₪ֳ´ֳ¥ֳ¨ֳ¸*/
 footer {
     height: 50px;
     background-color: white;
@@ -91,7 +91,7 @@ footer {
 
 
 
-/*עיצוב עמוד הבית*/
+/*ֳ²ֳ©ֳ¶ֳ¥ֳ¡ ֳ²ֳ®ֳ¥ֳ£ ֳ₪ֳ¡ֳ©ֳ÷*/
 #about {
     padding: 20px;
     height: 356px;
@@ -103,7 +103,7 @@ footer {
     float: left;
 }
 
-/*התלבטתי ובסוף החלטתי לא להגדיר שורה זו כ-אייץ' אחד אלא כ-פי כי שורה זו מופיעה רק בדף הראשי */
+/*ֳ₪ֳ÷ֳ¬ֳ¡ֳ¨ֳ÷ֳ© ֳ¥ֳ¡ֳ±ֳ¥ֳ³ ֳ₪ֳ§ֳ¬ֳ¨ֳ÷ֳ© ֳ¬ֳ  ֳ¬ֳ₪ֳ¢ֳ£ֳ©ֳ¸ ֳ¹ֳ¥ֳ¸ֳ₪ ֳ¦ֳ¥ ֳ«-ֳ ֳ©ֳ©ֳµ' ֳ ֳ§ֳ£ ֳ ֳ¬ֳ  ֳ«-ֳ´ֳ© ֳ«ֳ© ֳ¹ֳ¥ֳ¸ֳ₪ ֳ¦ֳ¥ ֳ®ֳ¥ֳ´ֳ©ֳ²ֳ₪ ֳ¸ֳ· ֳ¡ֳ£ֳ³ ֳ₪ֳ¸ֳ ֳ¹ֳ© */
 .title {
     font-size: 39pt;
     margin-top: 250px;
@@ -139,12 +139,12 @@ footer {
     background-repeat: no-repeat;
     margin-top: 425px;
     margin-right: 620px;
-    margin-bottom: 10px;
+    margin-bottom: 50px;
 }
 
 
 
-/*עיצוב  כללי דפים פנימי*/
+/*ֳ²ֳ©ֳ¶ֳ¥ֳ¡  ֳ«ֳ¬ֳ¬ֳ© ֳ£ֳ´ֳ©ֳ­ ֳ´ֳ°ֳ©ֳ®ֳ©*/
 h1 {
     font-size: 39pt;
     color: white;
@@ -189,9 +189,9 @@ h3 {
     background-repeat: no-repeat;
     margin-top: 17px;
     margin-right: 640px;
-    margin-bottom: 30px;
+    margin-bottom: 60px;
 }
-/*עיצוב דף קורות חיים*/
+/*ֳ²ֳ©ֳ¶ֳ¥ֳ¡ ֳ£ֳ³ ֳ·ֳ¥ֳ¸ֳ¥ֳ÷ ֳ§ֳ©ֳ©ֳ­*/
 .border {
     height: 80px;
     background-color: white;
@@ -221,7 +221,7 @@ h3 {
 
 
 
-/*עיצוב דף עבודות*/
+/*ֳ²ֳ©ֳ¶ֳ¥ֳ¡ ֳ£ֳ³ ֳ²ֳ¡ֳ¥ֳ£ֳ¥ֳ÷*/
 
 .worksborder, .worksborder2, .worksborder3 {
     background-color: white;
@@ -264,7 +264,7 @@ h3 {
     padding-top: 30px;
 }
 
-/*דף צור קשר*/
+/*ֳ£ֳ³ ֳ¶ֳ¥ֳ¸ ֳ·ֳ¹ֳ¸*/
 
 input[type=text], select, textarea {
     width: 880px;
